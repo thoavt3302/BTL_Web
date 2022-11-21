@@ -1,0 +1,178 @@
+
+	
+	  :root{
+        --primary-color: #d6161f;
+        --secondary-color: rgb(99, 134, 95);
+        --white-color:#ccc;
+        
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--secondary-color);
+    }
+    .main{
+        max-width: 550px;
+        margin: 15px auto;
+        background-color: var(--white-color);
+        border-radius: 1.2rem;
+        
+    }
+    .login__heading{
+        font-size: 2.4rem;
+        text-align: center;
+        padding: 2rem;
+        color: black;
+    }
+    
+    .login__group{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .login__input{
+        width: 100%;
+        padding: 1rem 2rem;
+        border:  none;
+        border-bottom: 2px solid var(--secondary-color);
+        outline: none;
+        font-size: 1.6rem;
+        border-radius: 1.2rem;
+    }
+    .login__input:focus{
+        border-bottom: 3px solid var(--primary-color);
+    }
+    .login__label{
+        display: inline-block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: #000;
+    }
+    .login__button{
+        text-align: center;
+    }
+    .login__btn{
+        margin: 2rem auto;
+        padding: 1.8rem 4rem;
+        border: none;
+        outline: none;
+        font-size: 1.6rem;
+        background-color: aqua;
+        color: rgb(8, 7, 7);
+        border-radius: 2.6rem;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    .login__btn:hover{
+        background-color: var(--primary-color);
+        color: #000;
+    }
+    .login__signup{
+        text-align: center;
+        font-size: 1.6rem;	
+    }
+    
+    .login__question{
+        display: inline-block;
+    }
+    .login__link-signup{
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+    .login__link-signup:hover{
+        border-bottom: 2px solid var(--secondary-color);
+    }
+    
+    
+        k{
+            color: rgb(11, 5, 17);
+            font-size: 30px;
+          margin-left: 560px;}
+    
+     .vv{
+            font-size: 1.3rem;
+            color: black;
+        }
+        input[type='radio']:after {
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            top: -2px;
+            left: -1px;
+            position: relative;
+            background-color: #f9faf9;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid rgb(198, 21, 21);
+        }
+     
+        input[type='radio']:checked:after {
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            top: -2px;
+            left: -1px;
+            position: relative;
+            background-color:aqua;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid rgb(17, 13, 13);
+        }
+
+        .tron{
+            border-radius: 10px;
+            font-size: 3rem;
+            /* border-bottom: 2px solid var(--secondary-color); */
+            border-bottom: 3px solid var(--primary-color);
+        }
+        k{
+            color: red;
+            font-size: 30px;
+          margin-left: 560px;
+          
+          }
+
+          .kk{
+            font-size: 20px;
+            color: red;
+            margin-left: 3rem;
+          }
+          .kk1{
+            font-size: 20px;
+          }
+          .kkk{
+            margin-left: 55rem;
+          }
+          [tooltip-position='left']:before,
+[tooltip-position='left']:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+[tooltip-position='left']:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: rgba(51, 51, 51, 0.9);
+}
+[tooltip-position='left']:hover:before,
+[tooltip-position='left']:hover:after,
+[tooltip-position='left']:focus:before,
+[tooltip-position='left']:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform: translateX(-12px);
+  transform: translateX(-12px);
+}
+.aaaa{
+  margin-left: 10rem;
+}
+
+        
+          
+          
